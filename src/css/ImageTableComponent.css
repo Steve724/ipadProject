@@ -1,0 +1,26 @@
+.image-table-container {
+    display: flex;
+    align-items: center;
+}
+
+.table-image {
+    width: 20%; /* Adjust the width as needed */
+    margin-right: 5%; /* Adjust the spacing between the image and the table */
+}
+
+.responsive-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply different styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .responsive-container {
+        padding: 10px;
+    }
+}
+
+
+
+
+
